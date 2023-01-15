@@ -7,6 +7,7 @@ const App = () => {
 
 const [result, setResult] = useState({})
 
+
 const changeHandler = (e) => {
 setResult(sentiment.analyze(e.target.value))
 }
